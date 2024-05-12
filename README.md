@@ -1,19 +1,35 @@
-# Dr.Árvore - Imersão Alura+Google
-# Problemática: As mudanças climáticas estão, batendo a nossa porta, e cada vez mais 
-# será demandado profissionais que se preocupam, cuidam e trabalham com florestas e ambientes naturais
-# e para que esses profissionais possam tomar as melhores decisões, é necessário conhecer e conhecer bem as florestas.
-# inventários florestais em áreas nativas são agora mais que nunca de extrema importância! E para inventariar precisamos identificar as espécies presentes
-# Objetivo: Este Projeto tem o intuito de dar _start_ em uma ferramenta não so de consulta mais especializada na identificação das espécies
-# Para isso obtemos no site da EMBRAPA FLORESTAS, os 5 volumes de Espécies Florestais Brasileiras, que conta com um  total de 340 espécies descritas!
-# Desenvolvimento: Então usando as ferramentas do _studioia_ da Google e usando técnicas de engenharia de prompt, extraímos os dados do documento, quais espécies estão descritas?
-# em quais paginas a descrição começa e aonde ela termina? qual é o volume que ela foi descrita.
-# Em seguida usando Python, e suas extraordinárias bibliotecas extraímos os conteúdos para cada espécie e criamos um Banco de Dados contendo as 340 espécies e todo o conteúdo que se # tem de cada espécie.
-# Usamos a API da Google para resumir o conteúdo de cada espécie! Mantendo o significado, semântica, e salvando as informações mais importantes para que possamos usar como      
-# identificadores!
-# Após o resumo usamos a técnica de Embeddeings fornecidos pelo pelos modelos da Google. Com o intuito de trabalhar esses dados da melhor forma e obter a partir de entradas de características do operador a espécie mais provável. 
-# Criando assim uma IA especializada nos dados publicados dos Livros Espécies Florestais Brasileiras
-# Além de ajudar na identificação, o resultada mostra que podemos além de identificar consultar sobre as espécies cadastradas
-# As limitações são clara, existem muito mais de 340 espécies florestais no nosso ecossistema, porém esse é um primeiro passo!
-# Avaliamos também que a evolução do modelo pode ser feita, através da adição dos dados, e usando a multimodalidade dos modelos da Google.
-# Para usarmos também fotos/ imagens para auxiliar na identificação.
-# A partir deste ponto iremos avançar na criação do Dr.Árvore para que cada vez mais ele se especialize na identificação das espécies florestais!
+# 🌳 Dr. Árvore - Seu Guia na Floresta 🌳
+## As Mudanças Climáticas Batem à Nossa Porta! 🚪
+
+As florestas precisam de nós! E nós precisamos entender a fundo esses complexos ecossistemas para protegê-los. O Dr. Árvore surge como um guia especializado na identificação de espécies florestais brasileiras, um passo crucial para a tomada de decisões em inventários florestais e estudos sobre a biodiversidade.
+
+### Mergulhando na Sabedoria da EMBRAPA 📚
+
+Utilizando os cinco volumes da obra *Espécies Florestais Brasileiras*, da EMBRAPA, o Dr. Árvore aprendeu com os mestres! Extraímos informações sobre 340 espécies, incluindo suas características, páginas de descrição e volumes de origem.
+
+### Tecnologia de Ponta para um Diagnóstico Preciso 💻
+
+Com a ajuda do Google Colab, Studio IA e a poderosa API Gemini AI, demos vida ao Dr. Árvore:
+
+- **Engenharia de Prompts:** Extraímos os dados dos livros da EMBRAPA com precisão.
+- **Python e suas Bibliotecas:** Criamos um banco de dados completo com as 340 espécies e seus detalhes.
+- **API Gemini AI:** Resumimos o conteúdo de cada espécie, mantendo a semântica e destacando os principais identificadores.
+- **Embeddings:** Permitimos que o Dr. Árvore compare características fornecidas pelo usuário com as espécies em seu banco de dados, apontando as mais prováveis.
+
+### Um Consultor Completo 🧠
+
+O Dr. Árvore não apenas identifica, mas também fornece informações detalhadas sobre as espécies, atuando como um guia completo para entusiastas e profissionais da área florestal.
+
+### Limitações e Futuro Promissor 🚀
+
+Sabemos que a flora brasileira é rica e diversa, com muito mais do que 340 espécies. Mas o Dr. Árvore é um projeto em constante evolução! Novas espécies serão adicionadas ao banco de dados, e a multimodalidade da API Gemini AI abrirá portas para a identificação por imagens, tornando o Dr. Árvore ainda mais completo.
+
+### Referências Bibliográficas
+
+- [Espécies Arbóreas Brasileiras - EMBRAPA (Volume 1)](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/229483/1/Especies-Arboreas-Brasileiras-vol-1-Livro.pdf)
+- [Espécies Arbóreas Brasileiras - EMBRAPA (Volume 2)](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/229489/1/Especies-Arboreas-Brasileiras-vol-2red.pdf)
+- [Espécies Arbóreas Brasileiras - EMBRAPA (Volume 3)](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/229490/1/Especies-Arboreas-Brasileiras-vol-3red.pdf)
+- [Espécies Arbóreas Brasileiras - EMBRAPA (Volume 4)](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/229491/1/Especies-Arboreas-Brasileiras-vol-4red.pdf)
+- [Espécies Arbóreas Brasileiras - EMBRAPA (Volume 5)](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/229492/1/Especies-Arboreas-Brasileiras-vol-5red.pdf)
+
+Junte-se a nós nesta jornada de descoberta e preservação das nossas florestas! 🌿
